@@ -1,0 +1,38 @@
+.container__header, .container__logo--header, .container__nav--header, .container__botoes--header {
+    display: flex;
+    align-items: center;
+    padding: 0.5em 3em;
+}
+
+.container__logo--header {
+    gap: 10px;
+}
+
+.titulo__header {
+    color: var(--cor-cinza);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.secoes__navigation {
+    padding: 0em 0.8em;
+    color: var(--cor-texto);
+}
+
+.container__botoes--header {
+    margin-left: auto;
+    gap: 12px;
+}
+
+.botao__branco__header {
+    color: var(--cor-texto);
+}
+
+.botao__vermelho__header {
+    background-color: var(--cor-vermelha);
+    color: var(--cor-de-fundo);
+    border-radius: 8px;
+    padding: 0.7em 1.5em;
+    text-align: center;
+    
+}

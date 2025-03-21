@@ -1,0 +1,33 @@
+.container__status {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin: 10vh 10em;
+}
+
+.status__info {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 0 1em 0 1em;
+}
+
+.num__status {
+    font-size: 60px;
+    font-weight: 600;
+    padding: 0 0 0.2em 0;
+    font-family: var(--fonte);
+    color: var(--cor-vermelha);
+}
+
+.subtitulo__status {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--fonte);
+    color: var(--cor-azul);
+}
+
+.descricao__status {
+    font-family: var(--fonte);
+    color: var(--cor-texto);
+    font-weight: 400;
+}

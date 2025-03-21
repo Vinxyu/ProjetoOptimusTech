@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz@0,14..32;1,14..32&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@600&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sigmar&display=swap');
+@import url('styles/header.css');
+@import url('styles/sobre.css');
+@import url('styles/status.css');
+@import url('styles/vagas.css');
+@import url('styles/colab.css');
+@import url('styles/footer.css');
+:root {
+    --cor-de-fundo: #ffffff;
+    --cor-texto: #667085;
+    --cor-vermelha: #8E2424;
+    --cor-cinza: #3A404E;
+    --fonte: 'Inter';
+    --cor-azul: #101828;
+}
+
+.ancora {
+    text-decoration: none;
+}
+

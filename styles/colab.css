@@ -1,0 +1,45 @@
+.container__colab {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 80%;
+    background-color: rgba(142, 36, 36, 0.05);
+    margin: auto;
+    border-radius: 16px;
+    margin-bottom: 3em;
+}
+
+#colab {
+    width: 56px;
+}
+
+.paragrafo__colab {
+    color: var(--cor-vermelha);
+    font-family: var(--fonte);
+    font-size: 14px;
+    font-weight: 600;
+    padding: 3em 0 1em;
+}
+
+.titulo__colab {
+    color: var(--cor-azul);
+    font-family: var(--fonte);
+    font-size: 36px;
+    font-weight: 600;
+    padding: 0 0 1em;
+}
+
+.nome__colab {
+    font-family: var(--fonte);
+    color: var(--cor-azul);
+    font-weight: 500;
+    padding: 1em 0 1em;
+}
+
+.descricao__colab {
+    font-family: var(--fonte);
+    color: var(--cor-texto);
+    font-size: 14px;
+    padding: 0 0 1em;
+}

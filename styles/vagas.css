@@ -1,0 +1,85 @@
+/*Parte1*/
+
+.vagas__parte1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.card__vagas {
+    background-color: rgba(142, 36, 36, 0.05);
+    color: var(--cor-vermelha);
+    padding: 4px 12px;
+    font-family: var(--fonte);
+    margin-bottom: 1em;
+    border-radius: 10px;
+}
+
+.titulo__vagas {
+    color: var(--cor-azul);
+    font-weight: 600;
+    font-size: 36px;
+    font-family: var(--fonte);
+    padding: 0 0 1em;
+}
+
+.paragrafo__vagas {
+    color: var(--cor-texto);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--fonte);
+    padding: 0 0 3em;
+}
+
+/*Parte 2*/
+
+.vagas__parte2 {
+    display: flex;
+    flex-direction: column;
+    margin: 3em;
+    align-items: center;
+}
+
+.topico__vaga {
+    font-family: var(--fonte);
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--cor-azul);
+    margin-bottom: 2em;
+}
+
+.card__topico {
+    padding: 2em 2em 0 2em;
+    border-radius: 16px;
+    border: solid 1px var(--cor-texto);
+    width: 768px;
+}
+
+.titulo__topico {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--fonte);
+    color: var(--cor-azul);
+}
+
+.paragrafo__topico {
+    font-weight: 500;
+    font-family: var(--fonte);
+    color: var(--cor-texto);
+}
+
+.paragrafos__topicos {
+    padding: 1.5em 0;
+    display: flex;
+    gap: 16px;
+}
+
+.container__vagas1, .container__vagas2 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 3em;
+}
+

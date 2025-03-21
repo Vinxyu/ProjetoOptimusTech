@@ -1,0 +1,57 @@
+.container__footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F9FAFB;
+}
+
+.titulo__footer {
+    font-family: var(--fonte);
+    color: var(--cor-azul);
+    font-size: 36px;
+    font-weight: 600;
+    padding: 2em 0 1em 0;
+}
+
+.subtitulo__footer {
+    font-family: var(--fonte);
+    color: var(--cor-texto);
+    font-size: 20px;
+    padding: 0 0 3em 0;
+}
+.input__footer {
+    border-radius: 8px;
+    border: solid 1px var(--cor-texto);
+    outline: none;
+    padding: 1em 1.5em 0.5em;
+    width: 360px;
+}
+
+.input__footer::placeholder {
+    padding: 1em 0em 0.5em;
+    font-family: var(--fonte);
+    font-size: 16px;
+}
+
+.button__footer {
+    color: white;
+    width: 116px;
+    background-color: var(--cor-vermelha);
+    padding: 1em;
+    border: none;
+    border-radius: 8px;
+    font-family: var(--fonte);
+    text-align: center;
+}
+
+.container__input {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 2em;
+}
+
+.paragrafo__footer {
+    font-family: var(--fonte);
+    color: var(--cor-texto);
+    margin-bottom: 3em;
+}
